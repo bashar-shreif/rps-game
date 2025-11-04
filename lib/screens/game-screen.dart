@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../utils/game-utils.dart';
-import '../widgets/play-banner.dart';
 import '../widgets/choice-display.dart';
 import '../widgets/action-buttons.dart';
 import '../widgets/result-message.dart';
@@ -56,7 +55,6 @@ class _GameScreenState extends State<GameScreen> {
         child: SafeArea(
           child: Stack(
             children: [
-              const PlayBanner(),
               Padding(
                 padding: const EdgeInsets.all(24.0),
                 child: Column(
